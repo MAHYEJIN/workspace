@@ -1,0 +1,16 @@
+@media(max-width:800px){
+    *{padding:0; margin:0;}
+}
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.card{ 
+    box-shadow: none;
+}
+
+.card > .header {
+    border-bottom: 0;
+}
